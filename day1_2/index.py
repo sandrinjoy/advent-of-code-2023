@@ -3,7 +3,16 @@ import math
 
 numbers = [ '1', '2', '3', '4', '5', '6', '7', '8', '9']
 numbersText = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
-numbersTextDict = { 'one': '1', 'two': '2', 'three': '3', 'four': '4', 'five': '5', 'six':'6', 'seven': '7', 'eight': '8', 'nine': '9'}
+numbersTextDict = { 'one': 'on1e', 
+'two': 'tw2o',
+'three': 'th3ree',
+'four': 'fo4ur',
+'five': 'fi5ve',
+'six': 'si6x',
+'seven': 'se7ven',
+'eight': 'ei8ght',
+'nine': 'ni9ne'
+}
 def open_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as infile:
         return infile.read()
@@ -28,8 +37,6 @@ def textWithNumbers(text):
     return text
 
 def get_calibration(text):
-    textNumbered = textWithNumbers(text)
-    textNumbered = textWithNumbers(text)
     textNumbered = textWithNumbers(text)
     digits = list(textNumbered)
     first = -1
