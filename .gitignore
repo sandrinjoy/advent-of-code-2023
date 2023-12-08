@@ -1,2 +1,5 @@
 # any .txt files
 /**/*.txt
+
+# DS Store files
+.DS_Store
